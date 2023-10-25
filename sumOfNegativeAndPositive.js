@@ -9,3 +9,4 @@ function countPositivesSumNegatives(input) {
   }
   return [countOfPositives, sumOfNegatives];
 }
+
