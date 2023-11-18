@@ -9,17 +9,17 @@ function solution(number){
       result[2]+= 1 // select the array index of element i want to store the value in and when it meets condition incrementing it by 1 
       console.log('C: '+ i) // to view the number added to my result represented by "+=1"
       console.log('result: '+ result) // to view all value that added to my result incrementing by
-      console.log('------------------------') // more readable and easier to see console logs for each A,B,C
+      console.log('-------------------') // more readable and easier to see console logs for each A,B,C
     } else if(i % 5 === 0){ 
        result[1]+= 1
        console.log('B: '+ i)
        console.log('result: '+ result)
-       console.log('------------------------')
+       console.log('------------------')
      }else if (i % 3 === 0){
         result[0]+= 1
         console.log('A: '+ i)
         console.log('result: '+ result)
-        console.log('------------------------')
+        console.log('------------------')
      } 
   }
   return result
