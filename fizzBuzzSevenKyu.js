@@ -1,3 +1,4 @@
+//describe what this function does
 function solution(number){
   // create variable, an array
   //to store a (multiples of 3), b(multiples of 5) , c (multiples of 3 and 5)
