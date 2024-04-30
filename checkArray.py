@@ -12,3 +12,15 @@ Goal: Check array "x"
  else if x has more then 2 good idea return "I smell a series!"
  else return "Fail!"
 """
+
+def well(x):
+    # Count the number of 'good' ideas in the array
+    good_count = x.count('good')
+    
+    # Determine the appropriate response based on the count of 'good' ideas
+    if good_count == 1 or good_count == 2:
+        return 'Publish!'
+    elif good_count > 2:
+        return 'I smell a series!'
+    else:
+        return 'Fail!'
