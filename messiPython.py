@@ -6,3 +6,8 @@ def goals(laLiga, copaDelRey, championsLeague):
     print("This is the total goals : ", total_goals) 
     
     return total_goals
+
+#Solution # 2 using args which is a tuple solution which is a concept used in oop taking all parent classes and in this case using the sum method
+
+def goals(*args):
+   return sum(args)
