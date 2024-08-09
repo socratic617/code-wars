@@ -12,4 +12,9 @@ def enough(cap, on, wait):
     print("this is the cap: ", cap)
     print("this is on :", on)
     print("this is the wait :", wait )
-   
+    remainder = on + wait - cap
+    print("this is the remainder to get on the bus :", remainder)
+    if remainder > 0:  # Not enough space, return the number of people who can't get on the bus
+        return remainder
+    else: # there is enough space on the bus
+        return 0
