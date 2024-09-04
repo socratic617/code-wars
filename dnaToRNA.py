@@ -8,6 +8,14 @@
 
 # "GCAT"  =>  "GCAU"
 # The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
+#Test Case: 
+
+def basic_tests():
+    @test.it('Basic Test Cases')
+    def basic_test_cases():
+        test.assert_equals(dna_to_rna("TTTT"), "UUUU")
+        test.assert_equals(dna_to_rna("GCAT"), "GCAU")
+        test.assert_equals(dna_to_rna("GACCGCCGCC"), "GACCGCCGCC")
 
 # Solution: 
 
