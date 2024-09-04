@@ -19,3 +19,7 @@ def basic_tests():
 
 # Solution: 
 
+#use methods .upper to uppercase and .replace 'T' Thymine to 'U' Uracil due to RNA not using Thymine
+
+def dna_to_rna(dna):
+    return dna.upper().replace('T', 'U')
