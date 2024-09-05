@@ -20,5 +20,15 @@
     # conditional for 3 diff options
 
 #Solution
+def rental_car_cost(d):
 
-
+    total = 0
+    if(d < 3):
+        total = d * 40
+        return total
+    elif(d > 6):
+        total = d * 40 - 50
+        return total
+    elif(d >= 3 & d < 7):
+        total = d * 40 - 20
+        return total
