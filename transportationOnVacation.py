@@ -9,8 +9,16 @@
 # Write a code that gives out the total amount for different days(d).
 
 #Psuedo
-
-
+    
+    # $40 per day
+    # $50 Discount if you rent the car for 7 days or more 
+    # $20 Discount if you rent the car 3 days or more
+    
+    #Write a code that gives out the total amount for different days(d).
+    
+    #Return Datatype = int
+    # conditional for 3 diff options
 
 #Solution
+
 
