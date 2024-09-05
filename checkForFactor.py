@@ -14,3 +14,16 @@
 # For example 2 is not a factor of 7 because: 7 % 2 = 1
 
 # Note: base is a non-negative number, factor is a positive number.
+
+# Solution: 
+
+def check_for_factor(base, factor):
+    # your code here
+    # create conditionals 
+        # use mod operator to check if remainder -> return false
+        # check if there is no remainder -> return true
+    #based on the condition 
+    if base % factor == 0:
+        return True
+    else:
+        return False 
