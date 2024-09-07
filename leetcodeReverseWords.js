@@ -29,3 +29,25 @@
 // 1 <= s.length <= 104
 // s contains English letters(upper -case and lower -case), digits, and spaces ' '.
 // There is at least one word in s.
+
+//Psuedo code for solution:
+
+/**
+ * @param {string} s
+ * @return {string}
+ * @return reversed string
+ *  words in s will be separated by at least one space
+ * s = input of a string 
+ * condition dealing with variable s that has multiple spaces that changes it to a single   space between words 
+ Solution: 
+ - create a variable to store reversed string 
+ - use for loop 
+ - use 2 conditionals
+ - use method to trim white space 
+ - use method split string into an array of words 
+ - create a new array to store new string of words in reversed order
+ -skip empty strings from multiple spaces
+ - reverse method 
+ - then join method
+
+ */
