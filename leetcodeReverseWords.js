@@ -51,3 +51,28 @@
  - then join method
 
  */
+
+ //Solution: 
+
+var reverseWords = function (s) {
+  // Step 1: Trim the input to remove any leading or trailing spaces
+  s = s.trim();
+
+  // Step 2: Split the string into an array of words
+  let words = s.split(' ');
+
+  // Step 3: Create a new array to store non-empty words (skip empty strings from multiple spaces)
+  let validWords = [];
+
+  for (let word of words) {
+    if (word !== '') {
+      validWords.push(word); // Only add non-empty words to the array
+    }
+  }
+
+  // Step 4: Reverse the valid words array
+  validWords.reverse();
+
+  // Step 5: Join the words back into a string with a single space between them
+  return validWords.join(' ');
+};
